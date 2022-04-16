@@ -47,7 +47,7 @@ You can probably reuse the files that don't come out of the box like
 2. `.mocharc.json`
 3. `src/components`
 
-And recreate with `npx create-next-app src --typescript` (I was using) `npx create-next-app -e with-tailwind src` but it doesn't look like it works anymore. So you won't have tailwind configured.
+And recreate with `npx create-next-app src --typescript`. I used `npx create-next-app -e with-tailwindcss src`. So you won't have tailwind configured.
 
 Then you can run `npx hardhat` that will pop up some options and it'll create the hardhat project for you. You'll need to install the extra dependencies for deploying to other networks and verifying as well, but that will show up whenever you try to use that custom `hardhat.config.js`
 
